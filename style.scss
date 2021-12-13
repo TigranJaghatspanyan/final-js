@@ -622,11 +622,11 @@ body {
     }
   }
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  .ft-section{
+  .ft-section {
     p {
       font-style: normal;
       font-weight: 500;
@@ -637,98 +637,104 @@ body {
         color: black;
       }
     }
-      h6{
-        margin-top:15px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 32px;
-        color: #B9C0C1;
-      }
-      h1{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-        color: #001F29;
-        margin-bottom:16px;
-      }
-      h5{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 18px;
-        color: #B9C0C1;
-        margin-bottom:16px;
-      }
-    
+    h6 {
+      margin-top: 15px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 32px;
+      color: #b9c0c1;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      color: #001f29;
+      margin-bottom: 16px;
+    }
+    h5 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      color: #b9c0c1;
+      margin-bottom: 16px;
+    }
   }
 }
-.weather{
- padding:10px;
+.weather {
+  padding: 10px;
   text-align: center;
   background-color: #f75532;
   width: 100%;
   height: 40px;
 }
-@media only screen and (max-width:1200px ){
-  .main-block3{
+@media only screen and (max-width: 1200px) {
+  .main-block3 {
     display: none;
   }
 }
-@media only screen and (max-width:900px ){
-  .block-vactionation{
-    button{
+@media only screen and (max-width: 900px) {
+  .block-vactionation {
+    button {
       display: none;
     }
   }
 }
-@media only screen and (max-width:763px ){
-  .block-vactionation{
-    .box:nth-child(3){
+@media only screen and (max-width: 763px) {
+  .block-vactionation {
+    .box:nth-child(3) {
       display: none;
     }
   }
-  header{
-    .blocks{
+  header {
+    .blocks {
       text-align: center;
-      .block{
-        
-        ul{
-          
+      .block {
+        ul {
           display: none;
         }
       }
     }
-    button{
+    button {
       display: none;
     }
   }
-  .vactination-block{  
+  .vactination-block {
     display: none;
+  }
 }
-}
-@media only screen and (max-width:500px ){
-  .block-vactionation{
+@media only screen and (max-width: 500px) {
+  .block-vactionation {
     text-align: center;
-    .box:nth-child(2){
+    .box:nth-child(2) {
       display: none;
     }
   }
-  .boxes{
-    .box{
-      margin:0 auto;
+  .boxes {
+    .box {
+      margin: 0 auto;
     }
   }
-  .block-main{
-  flex-wrap: wrap;
-  .block{
-    margin-bottom:20px;
+  .block-main {
+    flex-wrap: wrap;
+    .block {
+      margin-bottom: 20px;
+    }
   }
+  .block-main2 {
+    .box-main2 {
+      justify-content: center;
+    }
   }
-  .box-main2{
-    text-align: center;
-    margin:0 auto;
+  .block-vactionation{
+    .boxes{
+      justify-content: center;
+      .box{
+      margin:0;
+    
+      }
+    }
   }
 }
-

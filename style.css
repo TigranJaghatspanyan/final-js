@@ -853,7 +853,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
-  color: #B9C0C1;
+  color: #b9c0c1;
 }
 
 .footer .ft-section h1 {
@@ -861,7 +861,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #001F29;
+  color: #001f29;
   margin-bottom: 16px;
 }
 
@@ -870,7 +870,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #B9C0C1;
+  color: #b9c0c1;
   margin-bottom: 16px;
 }
 
@@ -929,9 +929,18 @@ body {
   .block-main .block {
     margin-bottom: 20px;
   }
-  .box-main2 {
-    text-align: center;
-    margin: 0 auto;
+  .block-main2 .box-main2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .block-vactionation .boxes {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .block-vactionation .boxes .box {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
