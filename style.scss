@@ -728,13 +728,24 @@ body {
       justify-content: center;
     }
   }
-  .block-vactionation{
-    .boxes{
+  .block-vactionation {
+    .boxes {
       justify-content: center;
-      .box{
-      margin:0;
-    
+      .box {
+        margin: 0;
       }
     }
   }
+
+  main{
+    .modal{
+      padding: 0px 10px;
+    }
+  }
+  .modalAddGroup{
+      padding:0px 20px;
+    
+  }
+
+  
 }

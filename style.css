@@ -942,5 +942,11 @@ body {
   .block-vactionation .boxes .box {
     margin: 0;
   }
+  main .modal {
+    padding: 0px 10px;
+  }
+  .modalAddGroup {
+    padding: 0px 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
